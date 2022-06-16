@@ -31,7 +31,7 @@ function Ram() {
                 </div>
             </div>
             <div className='w-48 mx-auto my-8'>
-               <Link to='/products/ram'> <button className='btn btn-primary font-light text-white'>See all rams</button></Link>
+               <Link to='/products/ram'> <button className='btn btn-secondary  text-accent'>See all rams</button></Link>
             </div>
         </div>
     )

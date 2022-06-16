@@ -31,7 +31,7 @@ function PowerSupply() {
                 </div>
             </div>
             <div className='w-56 mx-auto my-8'>
-                <Link to='/products/powersupplier' ><button className='btn btn-primary font-light text-white'>See all power supplier</button></Link>
+                <Link to='/products/powersupplier' ><button className='btn btn-secondary  text-accent'>See all power supplier</button></Link>
             </div>
         </div>
     )

@@ -34,7 +34,7 @@ function Monitors() {
                 </div>
             </div>
             <div className='w-40 mx-auto my-8'>
-                <Link to='/products/monitor' ><button className='btn btn-primary font-light text-white'>See all monitors</button></Link>
+                <Link to='/products/monitor' ><button className='btn btn-secondary  text-accent'>See all monitors</button></Link>
             </div>
         </div>
     )

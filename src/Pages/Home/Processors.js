@@ -31,7 +31,7 @@ function Processors() {
                 </div>
             </div>
             <div className='w-40 mx-auto my-8'>
-                <Link to='products'><button className='btn btn-primary font-light text-white'>See all processors</button></Link>
+                <Link to='products'><button className='btn btn-secondary  text-accent'>See all processors</button></Link>
             </div>
         </div>
     )

@@ -31,7 +31,7 @@ function Motherboard() {
                 </div>
             </div>
             <div className='w-48 mx-auto my-8'>
-                <Link to='/products/motherboard'><button className='btn btn-primary font-light text-white'>See all motherboards</button></Link>
+                <Link to='/products/motherboard'><button className='btn btn-secondary  text-accent'>See all motherboards</button></Link>
             </div>
         </div>
     )

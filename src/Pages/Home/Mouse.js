@@ -31,7 +31,7 @@ function Mouse() {
                 </div>
             </div>
             <div className='w-40 mx-auto my-8'>
-               <Link  to='/products/mouse' > <button className='btn btn-primary font-light text-white'>See all mouses</button></Link>
+               <Link  to='/products/mouse' > <button className='btn btn-secondary  text-accent'>See all mouses</button></Link>
             </div>
         </div>
     )

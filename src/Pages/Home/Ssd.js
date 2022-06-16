@@ -31,7 +31,7 @@ function Ssd() {
                 </div>
             </div>
             <div className='w-40 mx-auto my-8'>
-                <Link to='/products/ssd'><button className='btn btn-primary font-light text-white'>See all ssd</button></Link>
+                <Link to='/products/ssd'><button className='btn btn-secondary  text-accent'>See all ssd</button></Link>
             </div>
         </div>
     )

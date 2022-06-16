@@ -31,7 +31,7 @@ function Keyboard() {
                 </div>
             </div>
             <div className='w-40 mx-auto my-8'>
-               <Link  to='/products/keyboard' > <button className='btn btn-primary font-light text-white'>See all keyboards
+               <Link  to='/products/keyboard' > <button className='btn btn-secondary  text-accent'>See all keyboards
                 </button></Link>
             </div>
         </div>

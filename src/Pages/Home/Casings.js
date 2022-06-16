@@ -31,7 +31,7 @@ function Casings() {
                 </div>
             </div>
             <div className='w-40 mx-auto my-8'>
-              <Link to='/products/casing' >  <button className='btn btn-primary font-light text-white'>See all casings</button></Link>
+              <Link to='/products/casing' >  <button className='btn btn-secondary  text-accent'>See all casings</button></Link>
             </div>
         </div>
     )

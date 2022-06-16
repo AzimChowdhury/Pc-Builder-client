@@ -51,10 +51,10 @@ function SignIn() {
                 <p className='text-red-600'>{error && error.message}</p>
                 <p className='text-red-600'>{gError && gError.message}</p>
                 <small><p className='py-4'>First time in pc builder ? <Link to='/signup'>Sign up now</Link></p></small>
-                <input type='submit' value='Sign In' className='w-full btn btn-primary text-white font-light text-xl' />
+                <input type='submit' value='Sign In' className='w-full btn btn-secondary text-accent font-light text-xl' />
             </form>
             <div class="divider">or</div>
-            <button onClick={()=>signInWithGoogle()}  className=' mt-2 w-full btn btn-secondary text-white font-light text-xl' >
+            <button onClick={()=>signInWithGoogle()}  className=' mt-2 w-full btn btn-secondary text-accent font-light text-xl' >
                 <img className='w-6 mr-4' src={gIcon} alt=''/>
                 Sign in with Google
             </button>
