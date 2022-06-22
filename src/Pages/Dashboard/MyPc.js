@@ -18,7 +18,7 @@ function MyPc() {
     if (loading || isLoading) {
         return <Spinner></Spinner>
     }
-console.log(data)
+    // console.log(data)
     return (
         <div>
             <h2 className='m-3 text-center text-3xl text-secondary'>My Computers</h2>
@@ -53,8 +53,10 @@ console.log(data)
                                         mouse: {d.configuration.mouse.name}<br />
                                     </td>
                                     <td className='border-gray-300 border'>$ {d.total}</td>
-                                    <td className='border-gray-300 border'>{d.trnxId ? d.trnxId : 
-                                    <Link to={`/payment/${d._id}`}><button className='btn btn-secondary text-accent btn-xs font-thin'>Pay now</button></Link>
+                                    <td className='border-gray-300 border'>{d.tranxId ?
+                                        <p className='text-green-600 text-sm text-center'>paid <br/> transaction id: <br/> {d.tranxId}</p>
+                                        :
+                                        <Link to={`/payment/${d._id}`}><button className='btn btn-secondary text-accent btn-xs font-thin'>Pay now</button></Link>
                                     }</td>
                                 </tr>
                             </>
